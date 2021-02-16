@@ -12,4 +12,9 @@ public class Product {
     @NonNull
     private int cost;
 
+    public Product(@NonNull long id, @NonNull String title, @NonNull int cost) {
+        this.id = id;
+        this.title = title;
+        this.cost = cost;
+    }
 }
